@@ -14,7 +14,6 @@ setup(
     keywords="rest_framework_cache",
     url=github_url,
     packages=['rest_framework_cache', 'tests'],
-    namespace_packages=['rest_framework_cache'],
     package_dir={'rest_framework_cache': 'rest_framework_cache'},
     download_url="{}/tarball/master".format(github_url),
     tests_require=["Django", "djangorestframework", "mock"],
